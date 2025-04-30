@@ -6,9 +6,9 @@ cat package.json
 
 # build
 pnpm install
-unzip zh-CN..zip  // [!code ++]
-node ./scripts/i18n.mjs // [!code ++]
-rm zh-CN..zip // [!code ++]
+unzip zh-CN..zip
+node ./scripts/i18n.mjs
+rm zh-CN..zip
 pnpm build
 cp -r dist ../
 cd ..
