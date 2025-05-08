@@ -8,7 +8,8 @@ cat package.json
 pnpm install
 unzip zh-CN..zip
 node ./scripts/i18n.mjs
-rm zh-CN..zip
+# https://crowdin.com/backend/download/project/alist/zh-CN.zip
+rm zh-CN.zip
 pnpm build
 cp -r dist ../
 cd ..
