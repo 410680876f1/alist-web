@@ -6,7 +6,7 @@ cat package.json
 
 # build
 pnpm install
-unzip zh-CN..zip
+unzip zh-CN.zip
 node ./scripts/i18n.mjs
 # https://crowdin.com/backend/download/project/alist/zh-CN.zip
 rm zh-CN.zip
